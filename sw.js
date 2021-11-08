@@ -2,7 +2,14 @@
 //         so do not move it next to the other scripts
 
 const CACHE_NAME = "lab-7-starter";
-const urlsToCache = ["/", "/assets/styles/main.css", "/assets/scripts/main.js"];
+const urlsToCache = [
+  "https://introweb.tech/assets/json/ghostCookies.json",
+  "https://introweb.tech/assets/json/birthdayCake.json",
+  "https://introweb.tech/assets/json/chocolateChip.json",
+  "https://introweb.tech/assets/json/stuffing.json",
+  "https://introweb.tech/assets/json/turkey.json",
+  "https://introweb.tech/assets/json/pumpkinPie.json",
+];
 
 // Once the service worker has been installed, feed it some initial URLs to cache
 self.addEventListener("install", function (event) {
